@@ -15,6 +15,9 @@ pypdf
 requests
 #for backend deploy
 gunicorn
+
+#filenot found error sol
+python-magic
 # Note on starlette/python-multipart:
 # python-multipart is required for FastAPI to handle form data (like file uploads).
 # starlette[full] was suggested for the CORS fix, but the core dependencies 
