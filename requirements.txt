@@ -1,0 +1,21 @@
+# Core Libraries for FastAPI Backend
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+# Google Generative AI API Client
+google-genai
+
+# Document Pre-processing Libraries
+python-docx
+pypdf
+
+# Utility/Testing (Requests used in test_client.py)
+requests
+#for backend deploy
+gunicorn
+# Note on starlette/python-multipart:
+# python-multipart is required for FastAPI to handle form data (like file uploads).
+# starlette[full] was suggested for the CORS fix, but the core dependencies 
+# are typically included, and fastapi handles most of it. We list the necessary ones explicitly.
